@@ -1,0 +1,56 @@
+:root{
+    --orange:#ffa500;
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,0.1);
+
+}
+
+.homescreen{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0; left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1.2rem 7%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--black);
+    
+}
+
+.header .logo span{
+    color: var(--orange);
+   
+}
+
+.header .navbar a{
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+}

@@ -1,7 +1,7 @@
 .login {
     position: relative;
     height: 100vh; 
-    background:url('https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/11/banner_image_original_1494890440.jpg') center no-repeat;
+    background:url('https://png.pngtree.com/background/20230412/original/pngtree-kitchen-table-restaurant-background-picture-image_2399881.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@
 .signUpscreen{
     max-width: 300px;
     padding: 70px;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0,0,0,0.8);
     margin-left: auto;
     margin-right: auto;
 }

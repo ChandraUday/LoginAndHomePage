@@ -23,7 +23,7 @@ function Login() {
           {
             signIn ? (<SignUp/>) : (
                 <>
-                <h1>Amazing Properties,Flats and Kitchen Outlets.</h1>
+                <h1>Buy or Sell Amazing Resturants and Kitchen Outlets.</h1>
                 <h2>Check out these amazing outlets recently listed with us</h2>
                 <h3>Hot deals and more Discounts than ever.</h3>
 

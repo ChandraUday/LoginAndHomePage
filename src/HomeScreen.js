@@ -1,8 +1,11 @@
 import React from 'react'
+import firebase from 'firebase'
 
 function HomeScreen() {
   return (
-    <div>HomeScreen</div>
+    <div>
+      <button onClick={() =>firebase.auth().signOut()}>Signoput</button>
+    </div>
   )
 }
 

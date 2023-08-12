@@ -440,9 +440,8 @@ function HomeScreen() {
           <div className="box-container">
                   <div className="box">
                     <h3>About us</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     At commodi deserunt repudiandae saepe quaerat voluptates 
-                     aspernatur laboriosam.</p>
+                    <p>Broki is the niche platform for buying running/closed Food and beverages (F&B) entities like restaurants, bars, QSR, 
+                    cloud kitchens. Our mission is to sell running/closed F&B entities to the buyers at a reasonable rate from the market. We are specialists in selling these entities, or their space for lease. Our Motto is Why Build? Just Buy!</p>
                   </div>
 
                   <div className="box">
@@ -456,11 +455,10 @@ function HomeScreen() {
                   <div className="box">
                     <h3>quick links</h3>
                     <a href="#">home</a>
-                    <a href="#">book</a>
-                    <a href="#">packages</a>
-                    <a href="#">services</a>
+                    <a href="#">Listing</a>
+                    <a href="#">Inquiry form</a>
                     <a href="#">gallery</a>
-                    <a href="#">review</a>
+                    <a href="#">Blogs</a>
                     <a href="#">contact</a>
                   </div>
 
@@ -472,10 +470,10 @@ function HomeScreen() {
                     <a href="#">linkedin</a>  
                   </div>
           </div>
-        </div>
+       
         <h1 className="credit">created by<span> web designer</span> | all rights reserved!</h1>
      
-
+        </div>
     {/* footer section ends */}
 
 

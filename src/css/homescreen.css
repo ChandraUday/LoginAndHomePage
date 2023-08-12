@@ -210,11 +210,15 @@
     flex: 1 1 20rem;
     height: 25rem;
     position: relative;
+    cursor: pointer;
 }
 .gallery .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.gallery .box-container .box img:hover{
+    transform: scale(1.09);
 }
 
 /* blog css */

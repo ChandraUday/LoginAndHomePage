@@ -26,7 +26,7 @@ function HomeScreen() {
     
          <div className='header'>
          
-             <a href="#" class="logo"><span>B</span>roki.in</a>
+             <a href="#" className="logo"><span>B</span>roki.in</a>
 
              <div className="navbar">
          
@@ -393,6 +393,90 @@ function HomeScreen() {
      
     
      {/* review section end  */}
+
+
+     
+     {/* Contact section starts  */}
+     
+     <div className="contact" >
+            
+        <h1 className="heading">
+             <span>c</span>
+             <span>o</span>
+             <span>n</span>
+             <span>t</span>
+             <span>a</span>
+             <span>c</span>
+             <span>t</span>
+        </h1>
+ 
+        <div className="row">
+                
+              
+ 
+               <form action="">
+                    <div className="inputBox">
+                       <input type="text" placeholder="name please"/>
+                       <input type="email" placeholder="email please"/>
+                    </div>
+ 
+                    <div className="inputBox">
+                     <input type="number" placeholder="number please"/>
+                     <input type="text" placeholder="subject"/>
+                    </div>
+ 
+                  <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                  <input type="submit" className="btn" value="send message"/>
+               </form>
+        </div>
+     </div>
+    
+     {/* <!-- Contact section ends here --> */}
+
+
+     {/* footer section starts */}
+
+       <div className="footer">
+          <div className="box-container">
+                  <div className="box">
+                    <h3>About us</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     At commodi deserunt repudiandae saepe quaerat voluptates 
+                     aspernatur laboriosam.</p>
+                  </div>
+
+                  <div className="box">
+                    <h3>branch locations</h3>
+                    <a href="#">India</a>
+                    <a href="#">Usa</a>
+                    <a href="#">Japan</a>
+                    <a href="#">Turkey</a>
+                  </div>
+
+                  <div className="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book</a>
+                    <a href="#">packages</a>
+                    <a href="#">services</a>
+                    <a href="#">gallery</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                  </div>
+
+                  <div className="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>  
+                  </div>
+          </div>
+        </div>
+        <h1 className="credit">created by<span> web designer</span> | all rights reserved!</h1>
+     
+
+    {/* footer section ends */}
 
 
 
